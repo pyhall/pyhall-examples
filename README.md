@@ -1,63 +1,26 @@
 # pyhall-examples
 
-This repo is dedicated to example workers and integrations for use within the pyhall ecosystem, which is a compliant implementation of the [Worker Class Protocol](https://workerclassprotocol.dev). Users are encouraged to post examples of their own integrations.
+This repo is the index for example workers and integrations for the [pyhall](https://pyhall.dev) ecosystem — a compliant implementation of the [Worker Class Protocol](https://workerclassprotocol.dev).
+
+Examples are organized by language. Users are encouraged to share their own integrations in the appropriate repo.
 
 ---
 
-## Python
+## Repos by language
 
-### Workers
+| Repo | Language | Description |
+|---|---|---|
+| [pyhall-examples-python](https://github.com/pyhall/pyhall-examples-python) | Python | Workers, Discord integration, MCP interop |
+| [pyhall-examples-typescript](https://github.com/pyhall/pyhall-examples-typescript) | TypeScript | Workers using @pyhall/core |
+| [pyhall-examples-go](https://github.com/pyhall/pyhall-examples-go) | Go | Workers using pyhall-go |
 
-| Example | Description |
-|---|---|
-| [`python/workers/hello_worker/`](python/workers/hello_worker/) | Minimal Python worker — routing, registry record, rules |
-| [`python/workers/mcp_interop/`](python/workers/mcp_interop/) | Expose a WCP worker as an MCP tool (Claude Desktop, Claude Code, Cursor, etc.) |
-
-### Integrations
-
-| Integration | Description |
-|---|---|
-| [`python/discord/`](python/discord/) | Discord lab setup — create governed channels and webhooks via the Discord API |
+**Planned:** PHP, Ruby, Rust, Elixir, Java, .NET — repos will be added as official SDKs ship.
 
 ---
-
-## TypeScript
-
-### Workers
-
-| Example | Description |
-|---|---|
-| [`typescript/workers/hello-worker/`](typescript/workers/hello-worker/) | Minimal TypeScript worker |
-
----
-
-## Go
-
-### Workers
-
-| Example | Description |
-|---|---|
-| [`go/workers/hello-worker/`](go/workers/hello-worker/) | Minimal Go worker using pyhall-go |
-
----
-
-## Requirements
-
-```bash
-pip install pyhall-wcp              # Python examples
-npm install @pyhall/core            # TypeScript examples
-go get github.com/pyhall/pyhall-go  # Go examples
-```
-
-## Contributing
-
-Have an integration to share? Open a PR. Examples for any language or platform are welcome.
-
-Planned official SDK support: **PHP · Ruby · Rust · Elixir · Java · .NET**
 
 ## Docs
 
-Full documentation at [pyhall.dev/docs](https://pyhall.dev/docs/getting-started/)
+[pyhall.dev/docs/examples](https://pyhall.dev/docs/examples/)
 
 ## License
 
