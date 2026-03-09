@@ -1,0 +1,10 @@
+{
+  "worker_id": "org.example.hello-worker.instance-1",
+  "worker_species_id": "wrk.doc.summarizer",
+  "worker_version": "0.1.0",
+  "serves_capabilities": ["cap.doc.summarize"],
+  "environment": "dev",
+  "data_labels": ["PUBLIC", "INTERNAL"],
+  "tenant_risk": "low",
+  "endpoint": "http://localhost:8080/run"
+}

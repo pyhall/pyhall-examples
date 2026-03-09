@@ -1,9 +1,6 @@
 # pyhall-examples
 
-Example workers and integrations for the [PyHall / WCP](https://pyhall.dev) ecosystem.
-
-These are not part of the core SDK. They demonstrate how to build workers and connect
-pyhall to external platforms using the Worker Class Protocol.
+This repo is dedicated to example workers and integrations for use within the pyhall ecosystem, which is a compliant implementation of the [Worker Class Protocol](https://workerclassprotocol.dev). Users are encouraged to post examples of their own integrations.
 
 ---
 
@@ -22,6 +19,8 @@ pyhall to external platforms using the Worker Class Protocol.
 |---|---|
 | [`python/discord/`](python/discord/) | Discord lab setup — create governed channels and webhooks via the Discord API |
 
+---
+
 ## TypeScript
 
 ### Workers
@@ -32,12 +31,29 @@ pyhall to external platforms using the Worker Class Protocol.
 
 ---
 
+## Go
+
+### Workers
+
+| Example | Description |
+|---|---|
+| [`go/workers/hello-worker/`](go/workers/hello-worker/) | Minimal Go worker using pyhall-go |
+
+---
+
 ## Requirements
 
 ```bash
-pip install pyhall-wcp          # Python examples
-npm install @pyhall/core        # TypeScript examples
+pip install pyhall-wcp              # Python examples
+npm install @pyhall/core            # TypeScript examples
+go get github.com/pyhall/pyhall-go  # Go examples
 ```
+
+## Contributing
+
+Have an integration to share? Open a PR. Examples for any language or platform are welcome.
+
+Planned official SDK support: **PHP · Ruby · Rust · Elixir · Java · .NET**
 
 ## Docs
 
